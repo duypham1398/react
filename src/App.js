@@ -1,9 +1,10 @@
 import "./App.css";
 import LoginForm from "./components/LoginForm";
 import Wellcome from "./components/Wellcome";
-function Sayhi(
-  alert()
-)
+function sayHi() {
+  alert("asdgahsdg");
+}
+
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
       <button>Click me</button>
       <Hello name="adhjadh" cssStyle="red" />
       <Hello name="đágád" cssStyle="green" />
-      <LoginForm hi ></LoginForm>
+      <LoginForm hi={sayHi} />
       <Wellcome user={{ id: 1, name: "Admin" }}></Wellcome>
     </div>
   );
